@@ -760,6 +760,7 @@
   border-width: 1px 1px 1px 2px;
   border-color: #000 #000 #fff;
   background-color: transparent;
+  color: #fff;
 }
 
 .form-block {
@@ -835,6 +836,55 @@
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
+}
+
+.div-block-16 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0d402d;
+}
+
+.heading-2 {
+  color: #fff;
+}
+
+.heading-2.sdf {
+  margin-top: 0px;
+}
+
+.div-block-17 {
+  position: relative;
+  min-height: 100vh;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.body-2 {
+  background-color: #0d402d;
+}
+
+.image-9 {
+  padding-top: 40px;
+  padding-left: 20px;
 }
 
 @media screen and (max-width: 991px) {
@@ -1080,6 +1130,48 @@
   .icon-2 {
     background-color: transparent;
   }
+
+  .div-block-16 {
+    width: auto;
+    min-height: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+    background-color: transparent;
+  }
+
+  .div-block-17 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0d402d;
+    font-size: 1440px;
+  }
+
+  .body-2 {
+    background-color: #0d402d;
+  }
+
+  .image-9 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: auto;
+    bottom: auto;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1167,6 +1259,10 @@
 
   .text-field {
     width: 200px;
+  }
+
+  .heading-2.sdf {
+    font-size: 24px;
   }
 }
 
